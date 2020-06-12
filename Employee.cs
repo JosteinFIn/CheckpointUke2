@@ -15,7 +15,11 @@ namespace CheckpointUke2
 		{
 			Console.WriteLine(@"Employee()");
 			Console.WriteLine("\nThis class contains information about Employee");
-			Console.WriteLine("Includes properties Name, Age and HireDate");
+			Console.WriteLine("\nProperties: ");
+			Console.WriteLine("------------ ");
+			Console.WriteLine("Name: Name of employee");
+			Console.WriteLine("Age: Age of employee");
+			Console.WriteLine("HireDate: Date employee was hired");
 		}
 	}
 
