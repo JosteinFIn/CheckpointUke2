@@ -5,7 +5,7 @@
 		public string Name { get; private set; }
 		public int EmployeeCount { get; set; }
 
-		public Company(string name, int empolyeeCount = 0)
+		public Company(string name, int empolyeeCount = 1)
 		{
 			Name = name;
 			EmployeeCount = empolyeeCount;
